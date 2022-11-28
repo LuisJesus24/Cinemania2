@@ -1,0 +1,34 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "tarea": "gulp tarea",
+    "css": "gulp css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisJesus24/PIa-de-front-end.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Luis Jesus Garcia Almanza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisJesus24/PIa-de-front-end/issues"
+  },
+  "homepage": "https://github.com/LuisJesus24/PIa-de-front-end#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
