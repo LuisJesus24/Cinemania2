@@ -1,0 +1,11 @@
+@use 'base';
+@use 'layout';
+@use 'cartelera';
+
+body {
+    background: url(../../../imagenes/BA_B.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

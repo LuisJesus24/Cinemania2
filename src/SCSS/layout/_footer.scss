@@ -1,0 +1,21 @@
+@use 'base/variables' as v;
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  padding-top: 10rem;
+  margin: 0px;
+  background-color: v.$color2;
+  img {
+    height: 24rem;
+    width: 15rem;
+  }
+  p {
+    color: v.$color5;
+    margin-right: 3rem;
+  }
+}

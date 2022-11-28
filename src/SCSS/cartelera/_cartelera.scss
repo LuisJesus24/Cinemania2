@@ -1,0 +1,63 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.flex-caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    .caja {
+        background-color: white;
+        max-width: 110rem;
+        max-height: 100%;
+        margin-top: 20rem;
+        padding: 2rem;
+        border-radius: 2rem 2rem 0 0;
+    }
+
+    .nombre {
+        margin-top: -12rem;
+    }
+}
+
+.flex-caja {
+    img {
+        width: 40rem;
+        margin-left: 5rem;
+    }
+}
+
+p {
+    color: v.$color2;
+}
+
+.horarios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin-bottom: 10rem;
+    .color {
+        background-color: v.$color4;
+        width: 8rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        p {
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+    }
+    
+    .color:hover {
+        
+        background-color: v.$color1;
+    }
+}
+
+.acomodo {
+    
+    .color {
+        margin-left: 3rem; 
+    }
+}

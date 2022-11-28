@@ -1,0 +1,52 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.estrenos {
+    
+    margin-top: 1rem;
+    margin-bottom: 12rem;
+    padding-top: 0;
+    border: 0;
+    padding: 1rem;
+}
+
+
+.container{
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 0 1rem;
+    
+    
+  }
+
+  .container .swiper-container{
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+ 
+  .container img{
+    display: flex;
+    height: 36rem;
+    width: 25rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    }
+  
+   
+
+  .swiper-button-next, .swiper-button-prev{
+    position: absolute;
+      right: 26px !important;
+  }
+
+  
+  
+  
+.titulo-peliculas {
+    margin-left: 1rem;
+}
+
